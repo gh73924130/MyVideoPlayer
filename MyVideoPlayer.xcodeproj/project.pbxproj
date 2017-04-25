@@ -141,7 +141,6 @@
 			isa = PBXGroup;
 			children = (
 				0C61EB811EAEE5E900B05DF6 /* ZXVideoPlayer */,
-				0C61EB7F1EAEE5E100B05DF6 /* 150511_JiveBike.mov */,
 				0C61EABA1EAE033900B05DF6 /* AppDelegate.h */,
 				0C61EABB1EAE033900B05DF6 /* AppDelegate.m */,
 				0C61EABD1EAE033900B05DF6 /* ViewController.h */,
@@ -160,6 +159,7 @@
 		0C61EAB71EAE033900B05DF6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0C61EB7F1EAEE5E100B05DF6 /* 150511_JiveBike.mov */,
 				0C61EAB81EAE033900B05DF6 /* main.m */,
 			);
 			name = "Supporting Files";
