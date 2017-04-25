@@ -25,7 +25,7 @@
     NSURL *videoURL = [[NSBundle mainBundle] URLForResource:@"150511_JiveBike" withExtension:@"mov"];
     ZXVideo *video = [[ZXVideo alloc] init];
     video.playUrl = videoURL.absoluteString;
-    video.title = @"Test";
+    video.title = @"sds";
     
     PresentViewController *vc = [[PresentViewController alloc] init];
     vc.video = video;
@@ -35,6 +35,7 @@
 - (IBAction)playRemotoVideo:(UIButton *)sender {
     ZXVideo *video = [[ZXVideo alloc] init];
     video.playUrl = @"http://baobab.wdjcdn.com/1451897812703c.mp4";
+    
     video.title = @"Rollin'Wild 圆滚滚的";
     
     PresentViewController *vc = [[PresentViewController alloc] init];
